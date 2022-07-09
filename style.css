@@ -37,11 +37,11 @@
     padding: 5px;
     font-size: 18px;
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 .link:hover {
     text-decoration: underline;
-    cursor: pointer;
 }
 
 .hero {
@@ -84,6 +84,10 @@
     font-size: 16px;
     margin: 10px;
     border-color: #3882F6;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .hero .wrapper {
