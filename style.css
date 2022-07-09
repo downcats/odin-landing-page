@@ -6,9 +6,10 @@
 
 .first-section {
     background-color: #1F2937;
+    height: 600px;
 }
 
-.wrapper {
+.header .wrapper {
     display: flex;
     flex-grow: 1;
     justify-content: space-around;
@@ -44,28 +45,161 @@
 
 .hero {
     display: flex;
+    padding-bottom: 50px;
 }
 
 .hero-header {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    line-height: 1;
+    margin: 10px;
 }
 
 .hero-subtext {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 10px;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    
 }
 
 .hero-image {
-    width: 200px;
-    height: 100px;
+    width: 650px;
+    height: auto;
     background-color: beige;
+    text-align: center;
+}
+
+.hero-button {
+    width: 120px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+    border-color: #3882F6;
+}
+
+.hero .wrapper {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 90px;
+}
+
+.second-section {
+    height: 600px;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 12px;
+}
+
+.info-text {
+    display: flex;
+    justify-content: center;
+    gap: 135px;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.third-section {
+    height: 600px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-wrapper {
+    text-align: center;
+    height: 350px;
+    width: 1000px;
+    padding-top: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-name {
+    font-size: 30px;
+    text-align: right;
+}
+
+.fourth-section {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-box {
+    width: 1000px;
+    height: 80px;
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.btn-wrap {
+}
+
+ .call-header {
+    font-size: 30px;
+ }
+
+.call-text {
+    font-size: 18px;
+}
+
+.call-button {
+    width: 120px;
+    height: 32px;
+    border: 2px solid white;
+    border-radius: 12px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
