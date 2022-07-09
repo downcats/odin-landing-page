@@ -72,7 +72,12 @@
     width: 650px;
     height: auto;
     background-color: beige;
-    text-align: center;
+}
+
+.hero-image-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 105px;
 }
 
 .hero-button {
